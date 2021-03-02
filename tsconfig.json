@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "amd",
+    "removeComments": true,
+    "outFile": "./main.js",
+    "baseUrl": "./",
+    //"sourceMap": true /*  <--------------- only to debug ts files */,
+    "alwaysStrict": true,
+    "declaration": true,
+    "lib": ["es5", "es6", "dom"]
+  },
+  "include": ["./*.ts"]
+  //"exclude": ["./main.d.ts"]
+}
